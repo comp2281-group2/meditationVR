@@ -17,6 +17,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/bench.unity
     guid: f6034d98c3388d7478c9dbf86d3eeecf
+  - enabled: 1
+    path: Assets/Scenes/observatory hill.unity
+    guid: 7a6dcdec272932244a972af025db3592
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: bfa1182bd221b4ca89619141f66f1260,
       type: 2}
