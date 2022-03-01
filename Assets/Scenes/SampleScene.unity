@@ -4497,6 +4497,7 @@ GameObject:
   - component: {fileID: 652236673}
   - component: {fileID: 652236672}
   - component: {fileID: 652236675}
+  - component: {fileID: 652236676}
   m_Layer: 0
   m_Name: XR Rig
   m_TagString: Untagged
@@ -4571,6 +4572,25 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &652236676
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 652236671}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 864bb17c7fcb5e54990c71913733643b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  meditationTypeIndex: 1
+  mainCameraComponent: {fileID: 1745847059}
+  subtitleCanvas: {fileID: 1015611398}
+  audioClip0: {fileID: 8300000, guid: 0c0bafa8f7a56b74997763f3231a4809, type: 3}
+  audioClip1: {fileID: 8300000, guid: ab02de98531790d4ca2530d7a90e4e08, type: 3}
+  scriptFile0: {fileID: 4900000, guid: 6b5cd1503297102439546487c2480d73, type: 3}
+  scriptFile1: {fileID: 4900000, guid: 8c6f0f67db5c2164aac280032b62ad1a, type: 3}
 --- !u!1001 &654893707
 PrefabInstance:
   m_ObjectHideFlags: 0
