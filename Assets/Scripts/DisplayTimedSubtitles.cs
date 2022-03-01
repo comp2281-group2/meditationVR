@@ -6,7 +6,7 @@ using System;
 using System.IO;
 using TMPro;
 
-public class TestingTimer : MonoBehaviour
+public class DisplayTimedSubtitles : MonoBehaviour
 {
     
     public TextAsset subtitleFile;     // format of each line:  <subtitle text>#<duration of the line, time when next line begins-time when this line starts>     # is the delimeter; Drag the text file in the inspector
