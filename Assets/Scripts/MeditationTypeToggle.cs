@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class MeditationTypeToggle : MonoBehaviour
 {
-    public int meditationTypeIndex;
+    public bool myToggle;
     public AudioSource mainCameraComponent;
     public DisplayTimedSubtitles subtitleCanvas;
     public AudioClip audioClip0;
@@ -13,14 +13,14 @@ public class MeditationTypeToggle : MonoBehaviour
     public TextAsset scriptFile0;
     public TextAsset scriptFile1;
     
-    // Start is called before the first frame update
     void Start()
     {
-        if (meditationTypeIndex == 0) {
+        myToggle = GameObject.Find("ToggleHolder").GetComponent<ToggleFunc>().myToggle;
+        if (myToggle) {
             Debug.Log("index: 0  . 5 min meditation");
             subtitleCanvas.subtitleFile = scriptFile0;
             mainCameraComponent.clip = audioClip0;
-        } else if (meditationTypeIndex == 1) {
+        } else if (!myToggle) {
             Debug.Log("Index: 1  . Meditation Breath Sound Body");
             subtitleCanvas.subtitleFile = scriptFile1;
             mainCameraComponent.clip = audioClip1;
