@@ -6,7 +6,7 @@ using UnityEngine.Audio;
 public class EnviromentVolume : MonoBehaviour {
     public AudioMixer audioMixer;
     public void VolSetter(float vol) {
-        audioMixer.SetFloat("EnviromentVolume", vol);
+        audioMixer.SetFloat("EnviromentVolume", Mathf.Log10(vol) * 25);
     }
 }
 
