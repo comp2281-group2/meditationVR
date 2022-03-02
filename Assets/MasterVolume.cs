@@ -6,6 +6,6 @@ using UnityEngine.Audio;
 public class MasterVolume : MonoBehaviour{
     public AudioMixer audioMixer;
     public void VolSetter(float vol) {
-        audioMixer.SetFloat("MasterVolume", Mathf.Log10(vol) * 25);
+        audioMixer.SetFloat("MasterVolume", Mathf.Log10(vol) * 20);
     }
 }
