@@ -4546,7 +4546,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 652236671}
   m_LocalRotation: {x: -0, y: -0.8849523, z: -0, w: 0.4656816}
-  m_LocalPosition: {x: 2.718, y: 4.24, z: -0.554}
+  m_LocalPosition: {x: 2.718, y: 4.937, z: -0.554}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -4584,7 +4584,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 864bb17c7fcb5e54990c71913733643b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  meditationTypeIndex: 1
+  myToggle: 0
   mainCameraComponent: {fileID: 1745847059}
   subtitleCanvas: {fileID: 1015611398}
   audioClip0: {fileID: 8300000, guid: 0c0bafa8f7a56b74997763f3231a4809, type: 3}
@@ -14957,7 +14957,8 @@ AudioSource:
   m_GameObject: {fileID: 1745847054}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 4212742938229808701, guid: 416d83b4951fa1f48a9c36f623d70744,
+    type: 2}
   m_audioClip: {fileID: 8300000, guid: 0c0bafa8f7a56b74997763f3231a4809, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1

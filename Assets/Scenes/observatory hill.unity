@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.3266142, g: 0.26401368, b: 0.37582394, a: 1}
+  m_IndirectSpecularColor: {r: 0.32659242, g: 0.26394495, b: 0.37575108, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -396,7 +396,8 @@ AudioSource:
   m_GameObject: {fileID: 11054932}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 4212742938229808701, guid: 416d83b4951fa1f48a9c36f623d70744,
+    type: 2}
   m_audioClip: {fileID: 8300000, guid: ab02de98531790d4ca2530d7a90e4e08, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
@@ -25140,7 +25141,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1032982184}
   m_LocalRotation: {x: -0, y: -0.82386136, z: -0, w: 0.5667914}
-  m_LocalPosition: {x: 194.21, y: 37.555, z: 223.81}
+  m_LocalPosition: {x: 194.21, y: 38.144, z: 223.81}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -25211,7 +25212,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 864bb17c7fcb5e54990c71913733643b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  meditationTypeIndex: 1
+  myToggle: 0
   mainCameraComponent: {fileID: 11054934}
   subtitleCanvas: {fileID: 757656153}
   audioClip0: {fileID: 8300000, guid: 0c0bafa8f7a56b74997763f3231a4809, type: 3}
