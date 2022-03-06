@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.32659242, g: 0.26394495, b: 0.37575108, a: 1}
+  m_IndirectSpecularColor: {r: 0.3265925, g: 0.2639452, b: 0.37575132, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -13422,6 +13422,7 @@ GameObject:
   - component: {fileID: 525104912}
   - component: {fileID: 525104911}
   - component: {fileID: 525104910}
+  - component: {fileID: 525104913}
   m_Layer: 0
   m_Name: Plane
   m_TagString: Untagged
@@ -13508,6 +13509,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 525104908}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!65 &525104913
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 525104908}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 10.000003, y: 0.00000074101536, z: 10}
+  m_Center: {x: 0.00000011920929, y: 0, z: 0}
 --- !u!1001 &532031843
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24112,6 +24126,7 @@ GameObject:
   - component: {fileID: 1000900638}
   - component: {fileID: 1000900637}
   - component: {fileID: 1000900636}
+  - component: {fileID: 1000900639}
   m_Layer: 0
   m_Name: Plane (1)
   m_TagString: Untagged
@@ -24198,6 +24213,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1000900634}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!65 &1000900639
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000900634}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 10.000001, y: 2.2204463e-16, z: 10}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1001232086
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29158,6 +29186,7 @@ GameObject:
   - component: {fileID: 1186030220}
   - component: {fileID: 1186030219}
   - component: {fileID: 1186030218}
+  - component: {fileID: 1186030221}
   m_Layer: 0
   m_Name: Plane (2)
   m_TagString: Untagged
@@ -29244,6 +29273,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1186030216}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!65 &1186030221
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1186030216}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 10.000008, y: 0.000003941823, z: 10}
+  m_Center: {x: -0.00000047683716, y: 0.0000076293945, z: 0.00000047683716}
 --- !u!1001 &1187235379
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -44113,6 +44155,7 @@ GameObject:
   - component: {fileID: 1882427567}
   - component: {fileID: 1882427566}
   - component: {fileID: 1882427565}
+  - component: {fileID: 1882427568}
   m_Layer: 0
   m_Name: Plane (3)
   m_TagString: Untagged
@@ -44199,6 +44242,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1882427563}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!65 &1882427568
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1882427563}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 10.000008, y: 0.0000068440568, z: 10.000004}
+  m_Center: {x: 0.00000047683716, y: -0.0000019073486, z: -0.0000009536743}
 --- !u!1001 &1882513402
 PrefabInstance:
   m_ObjectHideFlags: 0

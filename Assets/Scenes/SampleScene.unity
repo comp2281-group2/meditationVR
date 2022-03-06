@@ -5929,6 +5929,7 @@ GameObject:
   - component: {fileID: 765792289}
   - component: {fileID: 765792288}
   - component: {fileID: 765792287}
+  - component: {fileID: 765792291}
   m_Layer: 0
   m_Name: Plane
   m_TagString: Untagged
@@ -6007,14 +6008,27 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 765792286}
-  m_LocalRotation: {x: 0.0062125884, y: -0.005786623, z: -0.7317215, w: 0.68155086}
+  m_LocalRotation: {x: -0.008518693, y: 0.007934597, z: -0.7316987, w: 0.6815288}
   m_LocalPosition: {x: -9.57, y: 5.42, z: -1.6}
   m_LocalScale: {x: 1, y: 1, z: 16.66374}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 220
-  m_LocalEulerAnglesHint: {x: 0, y: -0.973, z: -94.066}
+  m_LocalEulerAnglesHint: {x: 0, y: 1.334, z: -94.066}
+--- !u!65 &765792291
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 765792286}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 10.000001, y: 0.000000895252, z: 9.999999}
+  m_Center: {x: 0, y: 0.0000009536743, z: 0}
 --- !u!1001 &788050027
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8000,6 +8014,7 @@ GameObject:
   - component: {fileID: 917001163}
   - component: {fileID: 917001162}
   - component: {fileID: 917001161}
+  - component: {fileID: 917001164}
   m_Layer: 0
   m_Name: Terrain (2)
   m_TagString: Untagged
@@ -8067,6 +8082,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 78
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &917001164
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 917001160}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &921446116
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9849,6 +9877,7 @@ GameObject:
   - component: {fileID: 1124907251}
   - component: {fileID: 1124907250}
   - component: {fileID: 1124907249}
+  - component: {fileID: 1124907253}
   m_Layer: 0
   m_Name: Plane (3)
   m_TagString: Untagged
@@ -9935,6 +9964,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 223
   m_LocalEulerAnglesHint: {x: 0.881, y: 80.441, z: -88.851}
+--- !u!65 &1124907253
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1124907248}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 10.000001, y: 0.0000010803342, z: 9.999998}
+  m_Center: {x: 0.00000047683716, y: 0, z: 0}
 --- !u!1001 &1137455003
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13893,6 +13935,7 @@ GameObject:
   - component: {fileID: 1663796219}
   - component: {fileID: 1663796218}
   - component: {fileID: 1663796217}
+  - component: {fileID: 1663796220}
   m_Layer: 0
   m_Name: Terrain (1)
   m_TagString: Untagged
@@ -13960,6 +14003,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 77
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1663796220
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1663796216}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1668401936
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16505,6 +16561,7 @@ GameObject:
   - component: {fileID: 1935110694}
   - component: {fileID: 1935110693}
   - component: {fileID: 1935110692}
+  - component: {fileID: 1935110696}
   m_Layer: 0
   m_Name: Plane (2)
   m_TagString: Untagged
@@ -16591,6 +16648,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 222
   m_LocalEulerAnglesHint: {x: -0.51, y: 93.821, z: -86.476}
+--- !u!65 &1935110696
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1935110691}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 10.000004, y: 0.000004693866, z: 10.000002}
+  m_Center: {x: -0.00000023841858, y: 0, z: -0.00000011920929}
 --- !u!1001 &1950171123
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16892,6 +16962,7 @@ GameObject:
   - component: {fileID: 2001124278}
   - component: {fileID: 2001124277}
   - component: {fileID: 2001124276}
+  - component: {fileID: 2001124280}
   m_Layer: 0
   m_Name: Plane (1)
   m_TagString: Untagged
@@ -16978,6 +17049,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 221
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -94.066}
+--- !u!65 &2001124280
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2001124275}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 10.000001, y: 2.2204463e-16, z: 10}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &2018630581
 PrefabInstance:
   m_ObjectHideFlags: 0
