@@ -16,6 +16,7 @@ public class MeditationTypeToggle : MonoBehaviour
     void Start()
     {
         myToggle = GameObject.Find("ToggleHolder").GetComponent<ToggleFunc>().myToggle;
+        Debug.Log(myToggle);
         if (myToggle) {
             Debug.Log("index: 0  . 5 min meditation");
             subtitleCanvas.subtitleFile = scriptFile0;
