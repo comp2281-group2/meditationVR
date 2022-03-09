@@ -3618,7 +3618,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &685937525
 GameObject:
@@ -6531,7 +6531,7 @@ RectTransform:
   m_Children:
   - {fileID: 779868724}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -7585,7 +7585,7 @@ Transform:
   m_Children:
   - {fileID: 2018300573}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: -50.591, z: 0}
 --- !u!114 &1115348363
 MonoBehaviour:
@@ -7599,7 +7599,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 864bb17c7fcb5e54990c71913733643b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myToggle: 0
+  meditationType: 1
   mainCameraComponent: {fileID: 1992118039}
   subtitleCanvas: {fileID: 989821103}
   audioClip0: {fileID: 8300000, guid: 0c0bafa8f7a56b74997763f3231a4809, type: 3}
@@ -12353,7 +12353,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1848594977
 PrefabInstance:

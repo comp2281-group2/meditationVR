@@ -11,7 +11,8 @@ public class ToggleFunc : MonoBehaviour
         myToggle = true;
     }
 
-    public void invertToggle() {
+    public void invertToggle()
+    {
         myToggle = !myToggle;
     }
 }
