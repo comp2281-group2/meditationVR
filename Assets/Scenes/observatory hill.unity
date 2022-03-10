@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.3266142, g: 0.26401368, b: 0.37582394, a: 1}
+  m_IndirectSpecularColor: {r: 0.3265925, g: 0.2639452, b: 0.37575132, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -14949,7 +14949,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0
+      value: 0.433
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -47522,7 +47522,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0
+      value: 0.273
       inSlope: 0
       outSlope: 0
       tangentMode: 0
