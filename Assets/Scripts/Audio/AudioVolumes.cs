@@ -1,11 +1,10 @@
 using System;
 using UnityEngine;
 
-/// Stores the attenuation of each mixer channel
 public struct AudioVolumes {
-    private const float DEFAULT_MASTER = 0.0f;
-    private const float DEFAULT_INSTRUCTIONS = -0.1f;
-    private const float DEFAULT_ENVIRONMENT = -0.3f;
+    private const float DEFAULT_MASTER = 1.0f;
+    private const float DEFAULT_INSTRUCTIONS = 1.0f;
+    private const float DEFAULT_ENVIRONMENT = 1.0f;
 
     public float Master;
     public float Instructions;
@@ -35,21 +34,5 @@ public struct AudioVolumes {
 
     public override string ToString() {
         return String.Format("master: {0}, instructions: {1}, environment: {2}", Master, Instructions, Environment);
-    }
-}
-
-public class AudioManager : MonoBehaviour
-{
-    private AudioVolumes settings;
-
-    void Awake() {  
-        this.settings = AudioVolumes.FromPreferences();
-        Debug.Log(String.Format("loaded audio settings {0}", settings.ToString()));
-
-        // get MasterMixer
-        // get groups
-        // set attenuation of each group
-        
-        Debug.Log("Set volumes from PlayerPreferences");
     }
 }
