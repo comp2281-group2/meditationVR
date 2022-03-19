@@ -13,7 +13,7 @@ public class Window_Graph : MonoBehaviour
         graphContainer = transform.Find("graphContainer").GetComponent<RectTransform>();
 
         List<int> valueList = new List<int>() { 5, 6, 7, 8, 100, 90, 80, 70, 60, 50, 40, 30, 20, 10, 8 };
-        ShowGraph(valueList);
+        //ShowGraph(valueList);
 
     }
 
